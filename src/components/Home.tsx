@@ -5,6 +5,10 @@ import capitalize from 'lodash.capitalize';
 import {LoadingButton} from '@mui/lab';
 import {Moves, Types} from '../types/types';
 
+/**
+ * Input to search Pokemon API https://pokeapi.co/ because https://developers.giphy.com/docs/api#quick-start-guide was down.
+ * @returns JSX.Element
+ */
 export default function Home() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
